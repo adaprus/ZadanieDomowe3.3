@@ -2,15 +2,13 @@ public class Calculator {
 
     boolean isEven(int a){
 
-        boolean result;
-        result = (a%2 == 0);
+        boolean result = (a%2 == 0);
         return result;
     }
 
     boolean isOdd(int a){
 
-        boolean result;
-        result = (a%2 == 1);
+        boolean result =! isEven(a);
 
         return result;
     }

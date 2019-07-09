@@ -5,10 +5,10 @@ public class CalculatorTest {
 
         Calculator calculator1 = new Calculator();
 
-        boolean isEven = calculator1.isEven(37);
+        boolean isEven = calculator1.isEven(34);
         System.out.println("Czy liczba jest parzysta? " + isEven);
 
-        boolean isOdd = calculator1.isOdd(23);
+        boolean isOdd = calculator1.isOdd(24);
         System.out.println("Czy liczba jest nieparzysta? " + isOdd);
 
         double circleField = calculator1.circleField(3.5);
